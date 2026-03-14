@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEditorInternal;
 public class MenuController : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class MenuController : MonoBehaviour
     void Start()
     {
          ShowMainMenuInstant();
+
+
     }
 
     public void OpenOptionsMenu()
