@@ -10252,7 +10252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1045108403}
   sfxSource: {fileID: 1045108402}
-  backgroundMusic: {fileID: 8300000, guid: 7296799530f1cc24682235469b287978, type: 3}
+  backgroundMusic: {fileID: 0}
   jumpSFX: {fileID: 8300000, guid: a54f9c762f445164e95d5ffae0d8efe0, type: 3}
   collectibleSFX: {fileID: 8300000, guid: 3b827c2b3b1226f44b8f98d2025a3038, type: 3}
 --- !u!82 &1045108402

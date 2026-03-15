@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
+using UnityEditor;
 public class MenuController : MonoBehaviour
 {
     public CanvasGroup mainMenu;
