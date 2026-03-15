@@ -15,10 +15,45 @@ MonoBehaviour:
   npcName: Test NPC
   npcPortrait: {fileID: 408470734178923785, guid: 815db858f2cd1144d862b434d03d2d5f, type: 3}
   dialogueLines:
-  - YOU!
-  - Attack my heart!
-  typingSpeed: 0.05
+  - Hello there!
+  - congrats on making it to the end
+  - well, so, this is not the game for real
+  - i made this level to test out the main mechanics of the game which you see here.
+  - like the double jump, dashing, pasue menu ui, talking among other things
+  - i am currently working on making the quests in your to do list acceptable from
+    npcs like this one
+  - obviously i didnt make it in time hehehehe...
+  - so is there any questions?
+  - oh yeah
+  - so obviously i ran out of time and i just had to use the free assets i had
+  - 'i am making my own assets for every single thing '
+  - 'i just wanted to leave all the art til the end '
+  - well i did have music on here... but
+  - it was motive by ariana grande so obviously i could not use that
+  - and it was too late to change it because of the deadline hehehe
+  - but i unfortunately want to torture myself further and also make all the music
+    myself!
+  - wish me luck......
+  - great question
+  - she is a mother to all
+  - CHUU
+  - stream her songs pleak
+  - cya
+  autoProgressLines: 01010101010101000101010001010101000101010000
+  endDialogueLines: 00000000000000000000000100000000010000000101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.01
   voiceSound: {fileID: 0}
   voicepitch: 1
-  autoProgressLines: 0100
-  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 7
+    choices:
+    - So whats with the free assets???
+    - Why is there no music in the background?
+    - Who is this amazing person that is on my screen right now?
+    - Well... bye
+    nextDialogueIndexes: 080000000c0000001100000015000000
+    givesQuest: 
+  questInProgressIndex: 4
+  questCompletedIndex: 5
+  quest: {fileID: 11400000, guid: 4338cab04f6dfce41acf257b8dd3a56f, type: 2}

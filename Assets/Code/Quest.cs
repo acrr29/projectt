@@ -32,7 +32,6 @@ public class Quest : ScriptableObject
         public int currentAmount;
 
         public bool IsCompleted => currentAmount >= requiredAmount;
-
     }
     public enum ObjectiveType {CollectItem, ReachLocation, TalkNPC, Custom}
 
@@ -55,7 +54,7 @@ public class Quest : ScriptableObject
                     objectiveID = obj.objectiveID,
                     description = obj.description,
                     type = obj.type,
-                    requiredAmount = obj.requiredAmount = obj.requiredAmount,
+                    requiredAmount = obj.requiredAmount,
                     currentAmount = 0
                 });
             }

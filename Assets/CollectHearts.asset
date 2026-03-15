@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99b6daf225a0b484684555662715fe5c, type: 3}
-  m_Name: New Quest
+  m_Name: CollectHearts
   m_EditorClassIdentifier: 
-  questID: 0a7f4eed-8aea-44db-9a73-55d68c1e060c
-  questName: Collect Parts
-  description: Collect 5 pieces for the wind Turbine
+  questID: Cb1a1e2f5-f8af-4435-a221-23e781744689
+  questName: Colllect Hearts
+  description: Collect 5 hearts!!! <3
   objectives:
-  - objectiveID: 
-    description: 
+  - objectiveID: 1
+    description: Collect 5 hearts!!! <3
     type: 0
     requiredAmount: 5
     currentAmount: 0

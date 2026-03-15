@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerItemCollector : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class PlayerItemCollector : MonoBehaviour
 
                 if(itemAdded)
                 {
+                    item.PickUp();
                     Destroy(collision.gameObject);
                 }
             }

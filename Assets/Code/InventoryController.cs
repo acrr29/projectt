@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,10 @@ public class InventoryController : MonoBehaviour
     public int slotCount;
     public GameObject[] itemPrefabs;
 
+    public static InventoryController Instance { get; private set; }
+    Dictionary<int, int> itemsCountCache = new();
+    public event Action OnInventoryChanged;
+    
     void Start()
     {
         for(int i = 0; i < slotCount; i++)
@@ -23,6 +28,8 @@ public class InventoryController : MonoBehaviour
         }
     }
 
+    public Dictionary<int, int> GetItemCounts() => itemsCountCache;
+
     public bool AddItem(GameObject itemPrefab)
     {
         foreach(Transform slotTransform in inventoryPanel.transform)
@@ -33,11 +40,13 @@ public class InventoryController : MonoBehaviour
                 GameObject newItem = Instantiate(itemPrefab, slotTransform);
                 newItem.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
                 slot.currentItem = newItem;
+
                 return true;
             }
         }
 
         Debug.Log("Inventory is full!");
+
         return false;
     }
 }
