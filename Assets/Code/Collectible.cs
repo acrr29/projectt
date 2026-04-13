@@ -6,6 +6,7 @@ public class Collectible : MonoBehaviour
     void Update()
     {
         transform.Rotate(0f, rotationSpeed * Time.deltaTime,  0f);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

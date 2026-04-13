@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class playerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public Animator animator;
     bool isFacingRight = true;
     public ParticleSystem smokeFX;
 
@@ -44,6 +45,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+
+        GroundCheck();
+        Flip();
+
         if(PauseController.IsGamePaused)
         {
             rb.linearVelocity = Vector2.zero;
@@ -68,8 +73,9 @@ public class PlayerMovement : MonoBehaviour
             rb.gravityScale = baseGravity;
         }
 
-        GroundCheck();
-        Flip();
+        animator.SetFloat("yVelocity", rb.linearVelocity.y);
+        animator.SetFloat("magnitude", rb.linearVelocity.magnitude);
+
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -77,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
         horizontalMovement = context.ReadValue<Vector2>().x;
     }
 
-  public void Dash(InputAction.CallbackContext context)
+    public void Dash(InputAction.CallbackContext context)
     {
         if(context.performed && canDash)
         {
@@ -116,6 +122,7 @@ public class PlayerMovement : MonoBehaviour
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
                 jumpsRemaining--;
                 smokeFX.Play();
+                animator.SetTrigger("jump");
             }
             else if (context.canceled && rb.linearVelocity.y > 0)
             {
@@ -123,6 +130,7 @@ public class PlayerMovement : MonoBehaviour
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
                 jumpsRemaining--;
                 smokeFX.Play();
+                animator.SetTrigger("jump");
             }
         }
     }

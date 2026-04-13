@@ -43,5 +43,26 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: sky
+    uniqueID: 1991585141
+    locked: 0
+  - name: orbs
+    uniqueID: 3487378089
+    locked: 0
+  - name: clouds
+    uniqueID: 3659343219
+    locked: 0
+  - name: buildings back
+    uniqueID: 2430226545
+    locked: 0
+  - name: buildings front
+    uniqueID: 1853716891
+    locked: 0
+  - name: grass
+    uniqueID: 1139146723
+    locked: 0
+  - name: Player
+    uniqueID: 4274183953
+    locked: 0
   m_RenderingLayers:
   - Default

@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 1ca49110efc6f0549b4b755ce7e1c4f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1446704978604823330
+    second: background for game!-2.png_0
+  - first:
+      213: -1953040817631808296
+    second: background for game!-2.png_1
+  - first:
+      213: -2686294287564186526
+    second: background for game!-2.png_2
+  - first:
+      213: -2268776115485233934
+    second: background for game!-2.png_3
+  - first:
+      213: 940302136403519616
+    second: background for game!-2.png_4
+  - first:
+      213: 3939885178411537490
+    second: background for game!-2.png_5
+  - first:
+      213: 4963430616279364441
+    second: background for game!-2.png_6
+  - first:
+      213: -19020909080604675
+    second: background for game!-2.png_7
+  - first:
+      213: -8724596104383330418
+    second: background for game!-2.png_8
+  - first:
+      213: 1115240830920665640
+    second: background for game!-2.png_9
+  - first:
+      213: 8498487266870680617
+    second: background for game!-2.png_10
+  - first:
+      213: -4373342399761205702
+    second: background for game!-2.png_11
+  - first:
+      213: 608959190872837319
+    second: background for game!-2.png_12
+  - first:
+      213: -3355153138274561869
+    second: background for game!-2.png_13
+  - first:
+      213: 3119170718612078340
+    second: background for game!-2.png_14
+  - first:
+      213: -6698667271195801343
+    second: background for game!-2.png_15
+  - first:
+      213: 7564128643648064289
+    second: background for game!-2.png_16
+  - first:
+      213: 2045088082560810107
+    second: background for game!-2.png_17
+  - first:
+      213: -5616132131778953100
+    second: background for game!-2.png_18
+  - first:
+      213: -2113220780926514599
+    second: background for game!-2.png_19
+  - first:
+      213: -8625365939059424208
+    second: background for game!-2.png_20
+  - first:
+      213: 3853804594709619343
+    second: background for game!-2.png_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: background for game!-2.png_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1280
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2239788538ab31410800000000000000
+      internalID: 1446704978604823330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e881c4ed9c355aa479c4838cebcb50d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      background for game!-2.png_0: 1446704978604823330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

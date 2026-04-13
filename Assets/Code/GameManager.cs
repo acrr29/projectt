@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -6,6 +9,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance {get; private set;}
     public int collectibleCount = 0;
     public TMP_Text collectibleText;
+    public GameObject door;
+    public GameObject blue;
 
     void Awake()
     {
@@ -18,7 +23,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        collectibleText.text = $"Collectibles: {collectibleCount}";
+        collectibleText.text = $"€ {collectibleCount} mil";
     }
 
     public void AddCollectible()
@@ -29,6 +34,12 @@ public class GameManager : MonoBehaviour
 
     public void UpdateCollectibleUI()
     {
-        collectibleText.text = $"Collectibles: {collectibleCount}";
+        collectibleText.text = $"€ {collectibleCount} mil";
+
+        if(collectibleCount == 2)
+        {
+            Destroy(door);
+        }
+    
     }
 }

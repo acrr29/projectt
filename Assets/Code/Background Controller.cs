@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class BackgroundController : MonoBehaviour
@@ -6,7 +8,7 @@ public class BackgroundController : MonoBehaviour
     public GameObject cam;
     public float parallaxEffect;
 
-        void Start()
+    void Start()
     {
         startPos = transform.position.x;
     }
