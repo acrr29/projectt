@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4864161611364093158
+--- !u!1 &893316369005514617
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4814015760648091423}
-  - component: {fileID: 6377858969520461563}
-  - component: {fileID: 3835491728302541200}
+  - component: {fileID: 4541809501152835310}
+  - component: {fileID: 2370351235665594561}
+  - component: {fileID: 6933777489312456972}
   m_Layer: 5
-  m_Name: ObjectiveText
+  m_Name: ObjectiveText 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &4814015760648091423
+--- !u!224 &4541809501152835310
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4864161611364093158}
+  m_GameObject: {fileID: 893316369005514617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -35,23 +35,23 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 398.6028, y: 103.8357}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &6377858969520461563
+--- !u!222 &2370351235665594561
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4864161611364093158}
+  m_GameObject: {fileID: 893316369005514617}
   m_CullTransparentMesh: 1
---- !u!114 &3835491728302541200
+--- !u!114 &6933777489312456972
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4864161611364093158}
+  m_GameObject: {fileID: 893316369005514617}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Objective Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9907e7dadaaab2c48ac04014eb9e75eb, type: 2}
-  m_sharedMaterial: {fileID: 8611954652673103738, guid: 9907e7dadaaab2c48ac04014eb9e75eb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3c9201585febb414eae809daf89821ed, type: 2}
+  m_sharedMaterial: {fileID: 4004750405002006070, guid: 3c9201585febb414eae809daf89821ed, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -92,8 +92,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 59.343445, z: -0.7912903, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -61,6 +61,9 @@ TagManager:
   - name: grass
     uniqueID: 1139146723
     locked: 0
+  - name: rock
+    uniqueID: 1338371919
+    locked: 0
   - name: Player
     uniqueID: 4274183953
     locked: 0

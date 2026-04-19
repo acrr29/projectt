@@ -20,6 +20,8 @@ public class QuestUI : MonoBehaviour
         {
             testQuests.Add(new QuestProgress(testQuest));
         }
+
+        UpdateQuestUI();
     }
 
     public void UpdateQuestUI()
@@ -41,7 +43,7 @@ public class QuestUI : MonoBehaviour
             {
                 GameObject objTextGO = Instantiate(objectiveTextPrefab, objectiveList);
                 TMP_Text objText = objTextGO.GetComponent<TMP_Text>();
-                objText.text = $"{objective.description} ({objective.currentAmount}/{objective.requiredAmount})";
+                objText.text = $"{objective.description} ";
                 
             }
         }

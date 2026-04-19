@@ -18,13 +18,21 @@ MonoBehaviour:
   - '#1'
   - Renewable energy crates jobs than what fossil fuels offer.
   - These jobs can be from instalation to regular maintanance.
-  autoProgressLines: 010100
-  endDialogueLines: 
+  - ' '
+  - Press TAB to see this fact
+  - Press TAB to see this fact
+  autoProgressLines: 010100000000
+  endDialogueLines: 000000010101
   autoProgressDelay: 1.5
   typingSpeed: 0.02
   voiceSound: {fileID: 0}
   voicepitch: 1
-  choices: []
-  questInProgressIndex: 0
-  questCompletedIndex: 0
-  quest: {fileID: 0}
+  choices:
+  - dialogueIndex: 2
+    choices:
+    - Ah ok
+    nextDialogueIndexes: 
+    givesQuest: 01
+  questInProgressIndex: 4
+  questCompletedIndex: 5
+  quest: {fileID: 11400000, guid: f877506a75d74554797801491e0d3bae, type: 2}

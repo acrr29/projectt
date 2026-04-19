@@ -31,7 +31,9 @@ public class playerMovement : MonoBehaviour
     [Header("GroundCheck")]
     public Transform groundCheckPos;
     public Vector2 groundCheckSize = new Vector2(0.49f, 0.03f);
+    public float groundCheckDistance = 0.12f;
     public LayerMask groundLayer;
+    private bool isGrounded;
 
     [Header("Gravity")]
     public float baseGravity= 2f;
@@ -114,6 +116,8 @@ public class playerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
+        Debug.Log(jumpsRemaining);
+
         if(jumpsRemaining > 0)
         {
             if (context.performed)
@@ -137,10 +141,18 @@ public class playerMovement : MonoBehaviour
 
     private void GroundCheck()
     {
-        if (Physics2D.OverlapBox(groundCheckPos.position, groundCheckSize, 0, groundLayer)) //checks if set box overlaps with ground
-        {
-            jumpsRemaining = maxJumps;
-        }
+        // if (Physics2D.OverlapBox(groundCheckPos.position, groundCheckSize, 0, groundLayer)) //checks if set box overlaps with ground
+        // {
+        //     jumpsRemaining = maxJumps;
+        // }
+
+        Debug.Log(isGrounded);
+
+        Vector2 rayOrigin = groundCheckPos != null ? (Vector2)groundCheckPos.position : (Vector2)transform.position + groundCheckSize;
+        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance, groundLayer);
+        isGrounded = hit.collider != null;
+
+        if (isGrounded) jumpsRemaining = maxJumps;
     }
 
     private void Flip()

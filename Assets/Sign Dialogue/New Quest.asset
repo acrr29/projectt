@@ -12,7 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99b6daf225a0b484684555662715fe5c, type: 3}
   m_Name: New Quest
   m_EditorClassIdentifier: 
-  questID: 
-  questName: 
-  description: 
-  objectives: []
+  questID: Sign1b03df8fc-cdbc-488f-8c3a-7f03693f12d8
+  questName: Sign1
+  description: Renewable energy crates jobs than what fossil fuels offer. These jobs
+    can be from instalation to regular maintanance.
+  objectives:
+  - objectiveID: 
+    description: Renewable energy crates jobs than what fossil fuels offer. These
+      jobs can be from instalation to regular maintanance.
+    type: 1
+    requiredAmount: 0
+    currentAmount: 0
