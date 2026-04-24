@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: b99c1177c496bfc41ad9d847653a5046
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5937881452437225196
+    second: Wind Turbine-4.png (1)_0
+  - first:
+      213: -3114051223419995933
+    second: Wind Turbine-4.png (1)_1
+  - first:
+      213: -1313759217937458398
+    second: Wind Turbine-4.png (1)_2
+  - first:
+      213: 2023888129426650000
+    second: Wind Turbine-4.png (1)_3
+  - first:
+      213: -7503991124315359961
+    second: Wind Turbine-4.png (1)_4
+  - first:
+      213: -4708964012224223866
+    second: Wind Turbine-4.png (1)_5
+  - first:
+      213: -5670891308340696937
+    second: Wind Turbine-4.png (1)_6
+  - first:
+      213: -3390442858002004963
+    second: Wind Turbine-4.png (1)_7
+  - first:
+      213: -8492686473627363868
+    second: Wind Turbine-4.png (1)_8
+  - first:
+      213: 3177018545448234748
+    second: Wind Turbine-4.png (1)_9
+  - first:
+      213: -2253878627987429618
+    second: Wind Turbine-4.png (1)_10
+  - first:
+      213: 2134987703191532438
+    second: Wind Turbine-4.png (1)_11
+  - first:
+      213: 8830424467621954343
+    second: Wind Turbine-4.png (1)_12
+  - first:
+      213: 1564886500992887779
+    second: Wind Turbine-4.png (1)_13
+  - first:
+      213: -8960272437961028606
+    second: Wind Turbine-4.png (1)_14
+  - first:
+      213: 7154590635956125609
+    second: Wind Turbine-4.png (1)_15
+  - first:
+      213: -6887111470700247513
+    second: Wind Turbine-4.png (1)_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411491d7748689da0800000000000000
+      internalID: -5937881452437225196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 419
+        width: 154
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e83ea749eaa8c4d0800000000000000
+      internalID: -3114051223419995933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 551
+        width: 46
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b517ea3f694cde0800000000000000
+      internalID: -1313759217937458398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 119
+        width: 378
+        height: 578
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093fa9bd78b461c10800000000000000
+      internalID: 2023888129426650000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_4
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 551
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725bf7d84d77cd790800000000000000
+      internalID: -7503991124315359961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 471
+        width: 150
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685e6471e2666aeb0800000000000000
+      internalID: -4708964012224223866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 415
+        width: 122
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798a0869662fc41b0800000000000000
+      internalID: -5670891308340696937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 335
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14c7891f2ab2f0d0800000000000000
+      internalID: -3390442858002004963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 387
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e51daef5aae32a80800000000000000
+      internalID: -8492686473627363868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 91
+        width: 82
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe2546d889071c20800000000000000
+      internalID: 3177018545448234748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 43
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07e6f3545d98b0e0800000000000000
+      internalID: -2253878627987429618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_11
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 63
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693fe80210001ad10800000000000000
+      internalID: 2134987703191532438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_12
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 31
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72346888448fb8a70800000000000000
+      internalID: 8830424467621954343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_13
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 75
+        width: 134
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb2c754bf797b510800000000000000
+      internalID: 1564886500992887779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 35
+        width: 110
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c0c94f0b7b6a380800000000000000
+      internalID: -8960272437961028606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 39
+        width: 90
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af3089d6463a4360800000000000000
+      internalID: 7154590635956125609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Turbine-4.png (1)_16
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 31
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726c46c5b901c60a0800000000000000
+      internalID: -6887111470700247513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6e17dba3786a45e4f95da34314b4b97a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wind Turbine-4.png (1)_0: -5937881452437225196
+      Wind Turbine-4.png (1)_1: -3114051223419995933
+      Wind Turbine-4.png (1)_10: -2253878627987429618
+      Wind Turbine-4.png (1)_11: 2134987703191532438
+      Wind Turbine-4.png (1)_12: 8830424467621954343
+      Wind Turbine-4.png (1)_13: 1564886500992887779
+      Wind Turbine-4.png (1)_14: -8960272437961028606
+      Wind Turbine-4.png (1)_15: 7154590635956125609
+      Wind Turbine-4.png (1)_16: -6887111470700247513
+      Wind Turbine-4.png (1)_2: -1313759217937458398
+      Wind Turbine-4.png (1)_3: 2023888129426650000
+      Wind Turbine-4.png (1)_4: -7503991124315359961
+      Wind Turbine-4.png (1)_5: -4708964012224223866
+      Wind Turbine-4.png (1)_6: -5670891308340696937
+      Wind Turbine-4.png (1)_7: -3390442858002004963
+      Wind Turbine-4.png (1)_8: -8492686473627363868
+      Wind Turbine-4.png (1)_9: 3177018545448234748
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - Item
+  - Catcher
+  - Good
+  - Bad
+  - MiniCanvas
   layers:
   - Default
   - TransparentFX

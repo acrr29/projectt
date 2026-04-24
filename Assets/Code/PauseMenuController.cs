@@ -23,5 +23,6 @@ public class PauseMenuController : MonoBehaviour
             menuCanvas.SetActive(!menuCanvas.activeSelf);
             PauseController.SetPasue(menuCanvas.activeSelf);
         }
+
     }
 }

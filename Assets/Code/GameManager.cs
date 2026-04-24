@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 
     public void AddCollectible()
     {
-        collectibleCount++;
+        collectibleCount+= 5;
         UpdateCollectibleUI();
     }
 
@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         collectibleText.text = $"€ {collectibleCount} mil";
 
-        if(collectibleCount == 2)
+        if(collectibleCount == 20)
         {
             Destroy(door);
         }
