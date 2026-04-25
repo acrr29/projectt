@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
@@ -24,6 +27,15 @@ public class SceneLoader : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void OnMenuClick()
+    {
+        SceneManager.LoadScene("MENU");
+    }
+    public void OnStartClick()
+    {
+        SceneManager.LoadScene("level1");
     }
 
     public void ReleoadScene()

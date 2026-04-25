@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TestNPC
   m_EditorClassIdentifier: 
   npcName: Test NPC
-  npcPortrait: {fileID: 408470734178923785, guid: 815db858f2cd1144d862b434d03d2d5f, type: 3}
+  npcPortrait: {fileID: -8153282757093847277, guid: 66fca08c5a3e05749a8310fd2a860fbb, type: 3}
   dialogueLines:
   - Hello there!
   - congrats on making it to the end
@@ -56,4 +56,4 @@ MonoBehaviour:
     givesQuest: 
   questInProgressIndex: 4
   questCompletedIndex: 5
-  quest: {fileID: 11400000, guid: 4338cab04f6dfce41acf257b8dd3a56f, type: 2}
+  quest: {fileID: 0}

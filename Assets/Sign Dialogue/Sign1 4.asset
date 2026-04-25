@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5399f07d2e019f84e97f8b6b8558fd95, type: 3}
+  m_Name: Sign1 4
+  m_EditorClassIdentifier: 
+  npcName: Sign 5
+  npcPortrait: {fileID: -8611017991557197645, guid: 472e0ae76b21ccc4aabf503093fd67a1, type: 3}
+  dialogueLines:
+  - '#5'
+  - Almost 80% of energy is from fossil fuels.
+  - Around 13% of energy is from renewable sources.
+  - Renewable energy eliminates these health risks.
+  autoProgressLines: 01010101
+  endDialogueLines: 00000001
+  autoProgressDelay: 1.5
+  typingSpeed: 0.02
+  voiceSound: {fileID: 0}
+  voicepitch: 1
+  choices:
+  - dialogueIndex: 2
+    choices:
+    - Ah ok
+    nextDialogueIndexes: 
+    givesQuest: 01
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 11400000, guid: f877506a75d74554797801491e0d3bae, type: 2}

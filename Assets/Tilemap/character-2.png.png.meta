@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4320b67dfb9358f4ab7b17e04c67c3ba
+guid: 7eb2560661d5b1e42b99653b6ac88433
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 42555998799973833
-    second: game 1 UI-2.png_0
+      213: 3908089417021656893
+    second: character-2.png_0
+  - first:
+      213: -5605128443770572361
+    second: character-2.png_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: game 1 UI-2.png_0
+      name: character-2.png_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 31
-        width: 78
-        height: 58
+        x: 39
+        y: 3
+        width: 94
+        height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cdc8879470379000800000000000000
-      internalID: 42555998799973833
+      spriteID: d3f0a0c6e925c3630800000000000000
+      internalID: 3908089417021656893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character-2.png_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3
+        width: 94
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1fd9ca0659632b0800000000000000
+      internalID: -5605128443770572361
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7b656ff765450234f9c7e7ccdbfc1c15
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      game 1 UI-2.png_0: 42555998799973833
+      character-2.png_0: 3908089417021656893
+      character-2.png_1: -5605128443770572361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

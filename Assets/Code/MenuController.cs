@@ -11,14 +11,14 @@ public class MenuController : MonoBehaviour
     void Start()
     {
          ShowMainMenuInstant();
-
-
     }
 
     public void OpenOptionsMenu()
     {
         StartCoroutine(TransitionMenus(mainMenu, optionsMenu));
     }
+
+    
 
     public void BackToMainMenu()
     {

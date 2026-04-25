@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4320b67dfb9358f4ab7b17e04c67c3ba
+guid: 433ff457cd4a4b24f97d05e3c64b4de8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 42555998799973833
-    second: game 1 UI-2.png_0
+      213: 221635526135208708
+    second: game 1 UI-6.png_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: game 1 UI-2.png_0
+      name: game 1 UI-6.png_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 31
-        width: 78
-        height: 58
+        x: 0
+        y: 27
+        width: 125
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cdc8879470379000800000000000000
-      internalID: 42555998799973833
+      spriteID: 40b55e43658631300800000000000000
+      internalID: 221635526135208708
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      game 1 UI-2.png_0: 42555998799973833
+      game 1 UI-6.png_0: 221635526135208708
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
