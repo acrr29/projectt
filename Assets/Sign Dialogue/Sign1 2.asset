@@ -16,7 +16,7 @@ MonoBehaviour:
   npcPortrait: {fileID: -8611017991557197645, guid: 472e0ae76b21ccc4aabf503093fd67a1, type: 3}
   dialogueLines:
   - '#3'
-  - There are many tipes of renewable energies
+  - There are many types of renewable energies
   - Solar, Wind, Hydro, Tidal, Geothermal and Biomass.
   - Renewable energy eliminates these health risks.
   autoProgressLines: 01010101

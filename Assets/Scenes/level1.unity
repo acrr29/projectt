@@ -17125,7 +17125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6276855a8d75d047a578cc8637453a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerRespawnPosition: {x: -50.41, y: -8.26, z: 0}
+  playerRespawnPosition: {x: -71.59, y: -58.63, z: 0}
   enemyRespawnPosition: {x: 5.24, y: -1.56, z: 0}
 --- !u!61 &943644661
 BoxCollider2D:
@@ -17161,7 +17161,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.047424316}
+  m_Offset: {x: 5.902856, y: 0.047424316}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -17171,7 +17171,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1.0948486}
+  m_Size: {x: 12.805712, y: 1.0948486}
   m_EdgeRadius: 0
 --- !u!4 &943644662
 Transform:
@@ -17182,7 +17182,7 @@ Transform:
   m_GameObject: {fileID: 943644659}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -50.41, y: -10.19, z: 0.91267884}
+  m_LocalPosition: {x: -74.5, y: -69, z: 0.91267884}
   m_LocalScale: {x: 55.5984, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17401,7 +17401,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   baseGravity: 2
-  maxFallSpeed: 18
+  maxFallSpeed: 30
   fallGravityMult: 2
 --- !u!114 &945654707
 MonoBehaviour:
@@ -18349,7 +18349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1045108403}
   sfxSource: {fileID: 1045108402}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: aeb915b7a4d10f34b8b49be7699aee82, type: 3}
   jumpSFX: {fileID: 8300000, guid: a54f9c762f445164e95d5ffae0d8efe0, type: 3}
   collectibleSFX: {fileID: 8300000, guid: 3b827c2b3b1226f44b8f98d2025a3038, type: 3}
 --- !u!82 &1045108402
@@ -37837,7 +37837,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1768559225}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999835
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -38713,7 +38713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13.117633, y: -0.00027415797}
+  m_AnchoredPosition: {x: 13.1181755, y: -0.00027415797}
   m_SizeDelta: {x: -473.03, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1940845388
